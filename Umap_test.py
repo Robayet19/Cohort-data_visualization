@@ -7,7 +7,7 @@ import seaborn as sns
 import pandas as pd
 
 main_directory = os.getcwd()
-new_directory = 'C:\\Users\\rmchowdh\Dropbox (ASU)\\Programs and Data for Team\\Programs\\NN results with proteome projection_NIBIB and DHS\\Programs used for the project\\Data_Wafer_187'
+new_directory = 'Programs and Data for Team\\Programs\\NN results with proteome projection_NIBIB and DHS\\Programs used for the project\\Data_Wafer_187'
 temp_directory = os.chdir(new_directory)
 # filename
 filename1 = 'sequence_data_NIBIB_ND_187_CTS_CV3_19-Apr-2021-17-34.csv'
