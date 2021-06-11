@@ -1,9 +1,11 @@
+# This script was written to visulaize the differential serum IgG-peptide binding between two cohorts, 
+# where data points reperesnting peptides with statistically significant binding  can be visulaized in volcano plots
 from typing import Union, Iterable
 
 import numpy as np
 import pandas as pd
 import time
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 import matplotlib.patches as mpatches
 import multiprocessing
 from multiprocessing import Pool
